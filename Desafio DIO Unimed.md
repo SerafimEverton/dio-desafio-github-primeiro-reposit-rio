@@ -1,7 +1,9 @@
 # Repositório do Desafio de Projeto sobre Git/GitHub da DIO
+
 Repositório criado para o desafio do projeto
 
 ## Repositórios
+
 Repositórios no Git ajuda você a acompanhar os progressos e mudanças feitas no projeto e também a reverte-las se não for satisfatório.
 
 ## Repositórios Bare
