@@ -145,7 +145,9 @@ E assim, seu repositório local foi ligado ao Repositório Bare.
 Acredito que a grande vantagem desse tipo de Repositório seja o fato de preservamos melhor o projeto original, (sem poluilo), de correr riscos de alterações imprevistas e um melhor fluxo de trabalho onde diversas pessoas estão trabalhando em diferentes partes do projeto e as atualizações podem ser trabalhadas através da implementação de Tags. Sendo assim possível uma melhor visualização do desenvolvimento das mudanças feitas no projeto. 
 
 
-Espero ter ajudado um pouco em seu conhecimento. Obrigado por chegar até aqui, espero que tenhamos uma próxima vez. Obrigado
+Espero ter ajudado um pouco em seu conhecimento. Obrigado por chegar até aqui, espero que tenhamos uma próxima vez. 
+
+Obrigado
  
 
 ## Links Úteis
