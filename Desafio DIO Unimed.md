@@ -9,6 +9,7 @@ Repositórios no Git ajuda você a acompanhar os progressos e mudanças feitas n
 ## Repositórios Bare
 
 **O que é um repositório ?**
+
 Um repositório padrão tem uma pasta .git, que é a espinha dorsal do repositório onde todos os arquivos importantes para rastrear as alterações nas pastas são armazenados.
 A estrutura de arquivos do repositório padrão deve ser algo assim:
 
@@ -45,7 +46,6 @@ A estrutura de arquivos do repositório padrão deve ser algo assim:
 Como você pode ver, a pasta .git contém todos os arquivos necessários para rastrear a pasta do projeto. O repositório padrão é sempre usado para repositórios locais.
 
 ## O que é um repositório Bare?
-
 
 Um repositório Bare é semelhante ao Repositório padrão, mas nenhum compromisso pode ser feito em um repositório Bare. As mudanças feitas nos projetos não podem ser acompanhadas por um repositório Remoto, pois não tem uma árvore de trabalho. Uma árvore de trabalho é um diretório no qual todos os arquivos/subarquivos do projeto residem. O repositório Bare é essencialmente uma pasta ''**.git**'' com uma pasta específica onde todos os arquivos do projeto residem.
 Praticamente falando tudo no repositório além de .git é uma parte da árvore de trabalho. Para criar um repositório Bare, navegue até o diretório escolhido em Git Bash e digite:
