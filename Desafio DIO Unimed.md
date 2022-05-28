@@ -90,6 +90,7 @@ A estrutura de arquivos do repositório Bare deve ser assim:
 ***Nota***: Esta é exatamente a mesma estrutura de arquivo da pasta .git no repositório padrão.
 
 ***Usando um repositório Bare***
+
 Um repositório Bare está ligado a um repositório local, portanto, os arquivos em .git de repositório local devem coincidir com os arquivos no repositório Bare. Primeiro, crie um repositório Bare e em seguida, crie uma pasta de repositório local e clone o repositório Bare.
 
  
