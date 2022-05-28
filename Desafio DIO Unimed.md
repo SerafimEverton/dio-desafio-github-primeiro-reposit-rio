@@ -46,6 +46,7 @@ Como você pode ver, a pasta .git contém todos os arquivos necessários para ra
 
 ## O que é um repositório Bare?
 
+
 Um repositório Bare é semelhante ao Repositório padrão, mas nenhum compromisso pode ser feito em um repositório Bare. As mudanças feitas nos projetos não podem ser acompanhadas por um repositório Remoto, pois não tem uma árvore de trabalho. Uma árvore de trabalho é um diretório no qual todos os arquivos/subarquivos do projeto residem. O repositório Bare é essencialmente uma pasta ''**.git**'' com uma pasta específica onde todos os arquivos do projeto residem.
 Praticamente falando tudo no repositório além de .git é uma parte da árvore de trabalho. Para criar um repositório Bare, navegue até o diretório escolhido em Git Bash e digite:
 
