@@ -1,13 +1,12 @@
 # Repositório do Desafio de Projeto sobre Git/GitHub da DIO
 Repositório criado para o desafio do projeto
 
-# Repositórios Bare em Git
-
+## Repositórios
 Repositórios no Git ajuda você a acompanhar os progressos e mudanças feitas no projeto e também a reverte-las se não for satisfatório.
 
-##Repositórios Bare
+## Repositórios Bare
 
-O que é um repositório ?
+**O que é um repositório ?**
 Um repositório padrão tem uma pasta .git, que é a espinha dorsal do repositório onde todos os arquivos importantes para rastrear as alterações nas pastas são armazenados.
 A estrutura de arquivos do repositório padrão deve ser algo assim:
 
@@ -43,8 +42,8 @@ A estrutura de arquivos do repositório padrão deve ser algo assim:
 
 Como você pode ver, a pasta .git contém todos os arquivos necessários para rastrear a pasta do projeto. O repositório padrão é sempre usado para repositórios locais.
 
-##O que é um repositório Bare?
-Um repositório Bare é o mesmo que padrão, mas nenhum compromisso pode ser feito em um repositório Bare. As mudanças feitas nos projetos não podem ser acompanhadas por um repositório Remoto, pois não tem uma árvore de trabalho. Uma árvore de trabalho é um diretório no qual todos os arquivos/subarquivos do projeto residem. O repositório Bare é essencialmente uma pasta .git com uma pasta específica onde todos os arquivos do projeto residem.
+## O que é um repositório Bare?
+Um repositório Bare é semelhante ao Repositório padrão, mas nenhum compromisso pode ser feito em um repositório Bare. As mudanças feitas nos projetos não podem ser acompanhadas por um repositório Remoto, pois não tem uma árvore de trabalho. Uma árvore de trabalho é um diretório no qual todos os arquivos/subarquivos do projeto residem. O repositório Bare é essencialmente uma pasta ''**.git**'' com uma pasta específica onde todos os arquivos do projeto residem.
 Praticamente falando tudo no repositório além de .git é uma parte da árvore de trabalho. Para criar um repositório Bare, navegue até o diretório escolhido em Git Bash e digite:
 
  
@@ -58,7 +57,8 @@ Criando repositório Bare...
 
 A estrutura de arquivos do repositório Bare deve ser assim:
 
--- BareRepositorio* 
+
+    -- BareRepositorio* 
 
               |-- hooks* 
 
@@ -83,16 +83,15 @@ A estrutura de arquivos do repositório Bare deve ser assim:
 
 *: Folders 
 
-Nota: Esta é exatamente a mesma estrutura de arquivo da pasta .git no repositório padrão.
+***Nota***: Esta é exatamente a mesma estrutura de arquivo da pasta .git no repositório padrão.
 
-Usando um repositório
-Um repositório Bare está ligado a um repositório local, portanto, os arquivos em .git de repositório local devem coincidir com os arquivos no repositório Bare. Primeiro, crie um repositório Bare (Ver seção para o trecho de código).
-Em seguida, crie uma pasta de repositório local e clone o repositório Bare.
+***Usando um repositório Bare***
+Um repositório Bare está ligado a um repositório local, portanto, os arquivos em .git de repositório local devem coincidir com os arquivos no repositório Bare. Primeiro, crie um repositório Bare e em seguida, crie uma pasta de repositório local e clone o repositório Bare.
 
  
->cd C:/Users/example/repositories (Entre no repositório "repositories")
+>cd C:/Users/example/repositories **(Entrando no repositório "repositories")**
 
->git clone C:/Users/example/BareRepositorio . (Copie o caminho para o diretórioBare)
+>git clone C:/Users/example/BareRepositorio . **(Copie o caminho para o diretórioBare e use o git clone no repositório ""repositories"")**
 
 Cloning into 'BareRepositorio'...
 
@@ -100,15 +99,16 @@ warning: You appear to have cloned an empty repository.
 
 done. 
 
-Configure o usuário 
+___Configure o usuário___
 >git config --global user.name "exemplo nome"
+
 >git config --global user.email "exemplo@email"
 
-Não se preocupe com o aviso. O repositório clonado terá o mesmo nome do Repositório Bare, navegará até essa pasta e adicionará arquivos de projeto e cometerá alterações. Em seguida, empurre as alterações para o repositório Bare:
+Não se preocupe com o aviso. O repositório clonado terá o mesmo nome do Repositório Bare, navegará até essa pasta e adicionará arquivos de projeto e realizará alterações. Em seguida, empurre as aalterações para o repositório Bare:
 
->git add * (Jogue todas as alterações para o Repositório Local, "Stage")
+>git add * (Jogue todas as alterações para o Repositório Local, **''Stage''**)
 
->git commit -m “First commit”  (Salve no Git criando a nova instacia e torne o repositório "Unmodified")
+>git commit -m “First commit”  (Salve no Git criando a nova instacia e torne o repositório **''Unmodified''**)
 
 [master (root-commit) ffdf43f] First Commit 
 
